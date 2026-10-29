@@ -80,3 +80,4 @@ youtube/**/*.bak-*
 
 # DOL OFLC wage-data zips + full exports (fetched by scripts/contrib/2026fa/mayank-1024-wage-level-floor/fetch-oflc.sh)
 /data/dol/oflc/raw/
+search/private-notes.md
