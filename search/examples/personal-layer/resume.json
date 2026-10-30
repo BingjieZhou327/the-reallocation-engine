@@ -1,0 +1,394 @@
+{
+  "attested": true,
+  "attested_date": "2026-10-29",
+  "attestation_note": "Three AI import errors corrected: (1) task success rate was misclassified as a research method in Technology Company B; (2) an independent Trip Sculptor project was assigned the unsupported UX lead role; (3) WeChat Official Account was misclassified as a work tool rather than a publication channel in Psychological Services Company C.",
+  "schema_version": "1.0",
+  "source_file": "Resume_Candidate_A.pdf",
+  "basics": {
+    "name": "Candidate A",
+    "location": {
+      "city": "Boston",
+      "region": "MA",
+      "country": "US"
+    },
+    "phone": "(202) 555-0146",
+    "email": "candidate.a@example.com",
+    "links": [
+      {
+        "type": "linkedin",
+        "url": "https://example.com/linkedin-profile"
+      },
+      {
+        "type": "github",
+        "url": "https://example.com/code-profile"
+      }
+    ]
+  },
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Northeastern University",
+      "location": "Boston, MA, US",
+      "degree": "Master of Engineering",
+      "field": "Information Systems",
+      "start_date": null,
+      "end_date": "2027-06",
+      "status": "expected"
+    },
+    {
+      "id": "edu-2",
+      "institution": "Henan University of Chinese Medicine",
+      "location": "Henan, China",
+      "degree": "Bachelor of Science",
+      "field": "Applied Psychology",
+      "start_date": null,
+      "end_date": "2024-07",
+      "status": "completed"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "organization": "Education Company A",
+      "location": "Beijing, China",
+      "title": "UX Research Intern",
+      "employment_type": "internship",
+      "start_date": "2024-03",
+      "end_date": "2024-06",
+      "methods": [
+        "structured interviews",
+        "survey analysis",
+        "research reporting"
+      ],
+      "tools": [
+        "SPSS"
+      ],
+      "metrics": [
+        {
+          "description": "Contribution to quarterly sales increase",
+          "value": 17.6,
+          "unit": "percent"
+        },
+        {
+          "description": "Survey responses analyzed (quantitative and qualitative)",
+          "value": 40000,
+          "unit": "responses",
+          "qualifier": "over"
+        }
+      ],
+      "highlights": [
+        "Conducted structured interviews with parents and teachers to identify purchasing drivers for online education products; insights informed marketing strategy",
+        "Analyzed over 40,000 quantitative and qualitative survey responses using SPSS to evaluate product NPS and feature satisfaction; provided data-driven recommendations for cross-department product optimization",
+        "Synthesized research findings into actionable reports supporting decision-making across product, marketing, and operations teams"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "organization": "Technology Company B",
+      "location": "Henan, China",
+      "title": "Research Intern",
+      "employment_type": "internship",
+      "start_date": "2023-03",
+      "end_date": "2024-03",
+      "methods": [
+        "usability testing"
+      ],
+      "tools": [],
+      "metrics": [
+        {
+          "description": "Contribution to increase in user satisfaction ratings",
+          "value": 23.6,
+          "unit": "percent"
+        }
+      ],
+      "highlights": [
+        "Recruited representative test users across target demographics and edge cases and conducted usability testing to validate product usability and functional alignment with user needs",
+        "Evaluated usability metrics, including first-time task success rates and System Usability Scale (SUS) scores, to identify pain points and propose design improvements",
+        "Delivered research-based design recommendations that contributed to a 23.6% increase in user satisfaction ratings"
+      ],
+      "research_activities": [
+        "participant recruitment"
+      ],
+      "measurement_instruments": [
+        "System Usability Scale (SUS)"
+      ],
+      "usability_metrics": [
+        "first-time task success rate",
+        "SUS score"
+      ]
+    },
+    {
+      "id": "exp-3",
+      "organization": "Psychological Services Company C",
+      "location": "Henan, China",
+      "title": "Counselor Assistant",
+      "employment_type": null,
+      "start_date": "2022-04",
+      "end_date": "2023-03",
+      "methods": [
+        "performance data analysis",
+        "training plan development",
+        "program evaluation",
+        "content production"
+      ],
+      "tools": [],
+      "metrics": [
+        {
+          "description": "Participants giving positive feedback on the EAP program",
+          "value": 98,
+          "unit": "percent",
+          "qualifier": "over"
+        },
+        {
+          "description": "Increase in WeChat readership",
+          "value": 153,
+          "unit": "percent"
+        },
+        {
+          "description": "New WeChat followers acquired",
+          "value": 1967,
+          "unit": "followers",
+          "timeframe": "within two weeks"
+        }
+      ],
+      "highlights": [
+        "Led the Employee Assistance Program (EAP) by analyzing employee performance data and developing targeted training plans; received positive feedback from over 98% of participants",
+        "Produced psychology-focused content for the official WeChat platform, increasing readership by 153% and acquiring 1,967 new followers within two weeks",
+        "Supported counseling operations through structured data tracking and program evaluation to improve service delivery quality"
+      ],
+      "publication_channels": [
+        "WeChat Official Account"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "TheraVR",
+      "subtitle": "VR Psychotherapy Platform",
+      "start_date": null,
+      "end_date": null,
+      "role": "Team lead",
+      "team_size": 4,
+      "tech_stack": [
+        "Figma",
+        "VR Prototyping Tools",
+        "UX Research Methods"
+      ],
+      "outcomes": [
+        {
+          "type": "award",
+          "name": "24-hour hackathon",
+          "placement": "2nd Place"
+        }
+      ],
+      "highlights": [
+        "Designed a VR-assisted psychotherapy platform using avatar interaction and digital sandtray therapy to support emotional expression and personalized treatment",
+        "Led a 4-person interdisciplinary team through ideation, rapid prototyping, and iterative testing to deliver a functional prototype within 24 hours",
+        "Secured 2nd Place in a 24-hour hackathon through user-centered design and concept validation"
+      ]
+    },
+    {
+      "id": "proj-2",
+      "name": "Trip Sculptor",
+      "subtitle": "Personalized Travel Planning App",
+      "start_date": null,
+      "end_date": null,
+      "role": "Independent UX Designer",
+      "team_size": 1,
+      "tech_stack": [
+        "Figma",
+        "UX Research",
+        "User Testing"
+      ],
+      "outcomes": [
+        {
+          "type": "award",
+          "name": "College Students Innovation Competition",
+          "placement": "1st Place"
+        }
+      ],
+      "highlights": [
+        "Designed a personalized trip-planning application to streamline travel guide creation and reduce user planning time",
+        "Led the full UX process from user research to usability testing, validating design decisions through iterative feedback loops",
+        "Won 1st Place in a College Students Innovation Competition for product design quality and user experience innovation"
+      ],
+      "project_type": "Individual Project"
+    }
+  ],
+  "skills": [
+    {
+      "name": "User Interviews",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Usability Testing",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Journey Mapping",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Heuristic Evaluation",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Survey Design",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Persona Development",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "UX Research",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "UX Design",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Interaction Design",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Prototyping",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "User-Centered Design",
+      "categories": [
+        "UX Research & Design"
+      ]
+    },
+    {
+      "name": "Quantitative & Qualitative Analysis",
+      "categories": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "name": "SPSS",
+      "categories": [
+        "Data & Analytics",
+        "Tools"
+      ]
+    },
+    {
+      "name": "Insight Synthesis",
+      "categories": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "name": "Research Reporting",
+      "categories": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "name": "Requirements Analysis",
+      "categories": [
+        "Product Collaboration"
+      ]
+    },
+    {
+      "name": "Stakeholder Communication",
+      "categories": [
+        "Product Collaboration"
+      ]
+    },
+    {
+      "name": "Cross-functional Collaboration",
+      "categories": [
+        "Product Collaboration"
+      ]
+    },
+    {
+      "name": "Figma",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "name": "Sketch",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "name": "Principle",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "name": "Adobe Suite",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "name": "Notion",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "name": "Miro",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "name": "FigJam",
+      "categories": [
+        "Tools"
+      ]
+    },
+    {
+      "name": "Microsoft Office",
+      "categories": [
+        "Tools"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "id": "award-1",
+      "name": "24-hour hackathon",
+      "placement": "2nd Place",
+      "related_project": "proj-1"
+    },
+    {
+      "id": "award-2",
+      "name": "College Students Innovation Competition",
+      "placement": "1st Place",
+      "related_project": "proj-2"
+    }
+  ],
+  "certifications": [],
+  "publications": []
+}
