@@ -1,0 +1,63 @@
+schema_version: "1.0"
+
+target_role:
+  summary: "Entry-level full-time UX Designer / UX Researcher"
+  titles:
+    - UX Designer
+    - UX Researcher
+  seniority: entry-level
+  employment_type: full-time
+  context: post-graduation employment
+
+graduation:
+  term: "Spring 2027"
+  expected_date: "2027-06"
+
+visa:
+  type: "Student status (visa category withheld)"
+  opt:
+    applied: false
+    authorization_start: null   # not yet determined
+    authorization_end: null     # not yet determined
+    unemployment_days_used: null  # OPT not started
+  stem_eligible:
+    status: confirmed
+    source: "Reported by candidate, based on school verification (document details withheld)"
+  unemployment_tracking:
+    alert_days: 70
+    buffer_days: 20
+    # 70 alert threshold + 20 buffer = 90-day ceiling
+    ceiling_days: 90
+
+geography:
+  preferred_metros:
+    - Boston
+    - New York City
+    - San Francisco Bay Area
+    - Seattle
+  other_us_locations_accepted: true
+  search_scope: "United States"
+  relocation: true
+  work_arrangement:
+    - on-site
+    - hybrid
+    - remote
+
+industries:
+  targets:
+    - Technology / SaaS
+    - AI / Emerging Technology
+    - Healthcare / HealthTech
+    - Education / EdTech
+    - Entertainment / Media
+    - Travel / Hospitality
+  company_size: any
+  hard_exclusions:
+    - Financial Industry
+  hard_exclusion_scope: "Exclude employers whose primary business is financial services, including banking, insurance, securities, investment, and FinTech. Do not automatically exclude companies in other industries merely because their products include payment or financial features."
+
+sponsorship:
+  required: false
+  preference: preferred
+  hard_gate: false
+  note: "Sponsorship is preferred, not a hard gate. Companies without sponsorship history should not be auto-skipped."
